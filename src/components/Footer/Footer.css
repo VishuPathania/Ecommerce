@@ -1,0 +1,40 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+}
+
+.footer a {
+  display: inline-block;
+  margin: 0 6px;
+  color: #555;
+  font-size: 24px;
+}
+
+.footer a:hover {
+  color: #b870e8;
+}
+
+.heading {
+  font-family: Black Ops One;
+  color: #000000df;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-cart {
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+  font-family: Black Ops One;
+}

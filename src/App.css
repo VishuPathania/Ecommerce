@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-cart{
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+}
+
+.product-item{
+padding: 20px;
+text-align: center;
+
+}
+
+.button{
+background-color: rgb(53, 166, 211);
+position: absolute;
+float: right;
+}
+
+.navBar{
+background-color:black;
+/* width:100%;
+height: 100%; */
+}
+
+
+.text{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.a {
+text-align: center;
+padding: 2%;
+margin: 5%;
+}
+
+.hover-image:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.navbar-link {
+  margin-right: 10px;
+}
+
+.generics-section {
+  background-color: gray;
+  padding: 20px;
+  
+}
+
+.generic-section h1 {
+  color: white;
+  font-size: 100px;
+  background-color: gray;
+  font-family: Segoe Print;
+  padding: 50px;
+  text-align: center;
+
+}
+.gap{
+  margin: 20px;
+}
+
+
+
+
+
+
